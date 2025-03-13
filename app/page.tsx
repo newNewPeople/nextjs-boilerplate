@@ -1,17 +1,6 @@
 import Image from "next/image";
 import React from 'react';
 
-interface Property {
-  id: number;
-  name: string;
-  price: number;
-  totalShares: number;
-  sharesSold: number;
-  image: string;
-  location: string;
-  type: string;
-  yield: string;
-}
 
 
 export default function Home() {
