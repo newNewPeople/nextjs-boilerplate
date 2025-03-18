@@ -2,7 +2,7 @@
 
 import ConnectButton from "@/components/ConnectButton";
 import { useWeb3Modal } from "@web3modal/wagmi/react";
-import { useAccount, useConnect, useDisconnect,useWaitForTransactionReceipt,writeContract } from "wagmi";
+import { useAccount, useConnect, useDisconnect,useWaitForTransactionReceipt } from "wagmi";
 
 export default function Home() {
   const { address, isConnected } = useAccount();
